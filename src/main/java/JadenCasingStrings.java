@@ -19,26 +19,10 @@ public class JadenCasingStrings {
             words[i] = Capitalize(words[i]);
             result += words[i] + " ";
         }
-
         return result;
     }
 
     private static String Capitalize(String word) {
         return word.substring(0, 1).toUpperCase() + word.substring(1);
-
-
-        /*for(int i = 0; i < charArray.length; i++) {
-            if (Character.isLetter(charArray[i])) {
-                if (space) {
-                    charArray[i] = Character.toUpperCase(charArray[i]);
-                    space = false;
-                }
-            } else {
-                space = true;
-            }
-        }
-        str = String.valueOf(charArray);
-        System.out.println("Changed message: " + str);
-    }*/
     }
 }
