@@ -6,7 +6,7 @@ public class stringEnds {
 
 
     public static void main (String[] args) {
-        System.out.println(solution("abc", "w"));
+        System.out.println(solution("abc", "c"));
     }
 
     private static boolean solution(String str, String ending) {
