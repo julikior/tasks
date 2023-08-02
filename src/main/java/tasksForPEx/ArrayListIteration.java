@@ -27,6 +27,8 @@ public class ArrayListIteration {
       for (int i = 0; i < list.size(); i++) {
         String elementPosition = list.get(i);
         System.out.println("Position " + i + " : " + elementPosition);
+
+
       }
     }
   }
